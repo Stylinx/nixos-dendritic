@@ -24,8 +24,12 @@
           PLATFORM_PROFILE_ON_AC = "performance";
           PLATFORM_PROFILE_ON_BAT = "balanced";
 
-          STOP_CHARGE_THRESH_BAT0 = 75;
-          STOP_CHARGE_THRESH_BAT1 = 75;
+
+          START_CHARGE_THRESH_BAT0 = 75;
+          START_CHARGE_THRESH_BAT1 = 75;
+
+          STOP_CHARGE_THRESH_BAT0 = 80;
+          STOP_CHARGE_THRESH_BAT1 = 80;
 
           USB_AUTOSUSPEND = 0;
         };
