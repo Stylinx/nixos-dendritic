@@ -5,6 +5,12 @@
     environment.systemPackages = with pkgs; [
       prismlauncher
       supertuxkart
+      (heroic.override {
+        extraPkgs = pkgs': with pkgs'; [
+          gamescope
+          gamemode
+        ];
+      })
     ];
     programs.steam = {
       enable = true;

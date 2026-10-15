@@ -52,6 +52,14 @@
      '(org-level-7 ((t (:inherit outline-5 :height 1.1)))))
 #+end_src
 
+* Latex
+#+begin_src emacs-lisp
+(with-eval-after-load 'org
+    (setq org-use-sub-superscripts nil)
+)
+#+end_src
+
+
 * Modern
 #+begin_src emacs-lisp
             (use-package org-modern
