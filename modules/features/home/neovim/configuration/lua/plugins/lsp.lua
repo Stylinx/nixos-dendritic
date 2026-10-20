@@ -18,6 +18,7 @@ return {
                 lua = { "lua_ls" },
                 nix = { "nixpkgs_fmt" },
                 c = { "clang-format" },
+                cpp = { "clang-format" },
             },
             formatters = {
                 ["clang-format"] = {
@@ -42,6 +43,15 @@ return {
 
         vim.lsp.config('*', {
             capabilities = capabilities
+        })
+        vim.lsp.config('clangd', {
+            cmd = {
+                "clangd",
+                "--background-index",
+                "--clang-tidy",
+                "--completion-style=detailed",
+                "--header-insertion=iwyu",
+            },
         })
         vim.lsp.enable('clangd')
         vim.lsp.enable('nil_ls')
