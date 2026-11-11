@@ -8,6 +8,7 @@
   flake.homeModules.generalConfiguration = { pkgs, ... }: {
     imports = [
       self.homeModules.commonImports
+      self.homeModules.vesktop
     ];
     programs.bash.enable = true;
     programs.starship.presets = [ "jetpack" ];
