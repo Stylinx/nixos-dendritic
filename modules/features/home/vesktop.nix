@@ -4,7 +4,7 @@
     programs.vesktop = {
       enable = true;
       settings = {
-        minimizeToTray = true;
+        minimizeToTray = false;
         autoMinimise = false;
         hardwareAcceleration = true;
         useEffectiveScreenShare = true;

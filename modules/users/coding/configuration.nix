@@ -12,6 +12,7 @@
       self.homeModules.emacsConfiguration
       self.homeModules.tmuxConfiguration
       self.homeModules.git
+      self.homeModules.claudeCode
     ];
     programs.bash.enable = true;
     programs.starship.presets = [ "bracketed-segments" ];
