@@ -13,6 +13,7 @@
       self.homeModules.tmuxConfiguration
       self.homeModules.git
       self.homeModules.claudeCode
+      self.homeModules.vesktop
     ];
     programs.bash.enable = true;
     programs.starship.presets = [ "bracketed-segments" ];
