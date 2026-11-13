@@ -11,7 +11,6 @@
     time.timeZone = "America/New_York";
     networking = {
       hostName = "Stylinx-Jupiter";
-      networkmanager.enable = true;
     };
     nixpkgs.config.allowUnfree = true;
     boot.loader.limine.extraEntries = ''

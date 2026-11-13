@@ -13,6 +13,7 @@
       self.nixosModules.fonts
       self.nixosModules.stylix
       self.nixosModules.qt
+      self.nixosModules.network
     ];
   };
 }

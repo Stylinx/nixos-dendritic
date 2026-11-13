@@ -14,7 +14,6 @@
     time.timeZone = "America/New_York";
     networking = {
       hostName = "Stylinx-Neptune";
-      networkmanager.enable = true;
     };
     nixpkgs.config.permittedInsecurePackages = [
       "electron-41.10.6"
